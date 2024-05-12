@@ -1,3 +1,1 @@
 yarn lint-staged
-
-exit 1
