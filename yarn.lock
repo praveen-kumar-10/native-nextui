@@ -2393,9 +2393,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/webpack-config@npm:^18.0.1":
-  version: 18.1.4
-  resolution: "@expo/webpack-config@npm:18.1.4"
+"@expo/webpack-config@npm:^19.0.1":
+  version: 19.0.1
+  resolution: "@expo/webpack-config@npm:19.0.1"
   dependencies:
     "@babel/core": ^7.20.2
     babel-loader: ^8.3.0
@@ -2404,15 +2404,16 @@ __metadata:
     copy-webpack-plugin: ^10.2.0
     css-loader: ^6.5.1
     css-minimizer-webpack-plugin: ^3.4.1
-    expo-pwa: 0.0.126
+    expo-pwa: 0.0.127
     find-up: ^5.0.0
     find-yarn-workspace-root: ~2.0.0
+    fs-extra: ^11.2.0
     getenv: ^1.0.0
     html-webpack-plugin: ^5.5.0
     is-wsl: ^2.0.0
     mini-css-extract-plugin: ^2.5.2
     node-html-parser: ^5.2.0
-    semver: ~7.3.2
+    semver: ~7.5.4
     source-map-loader: ^3.0.1
     style-loader: ^3.3.1
     terser-webpack-plugin: ^5.3.0
@@ -2420,8 +2421,8 @@ __metadata:
     webpack-dev-server: ^4.11.1
     webpack-manifest-plugin: ^4.1.1
   peerDependencies:
-    expo: ^48.0.17
-  checksum: c37b5aacf92f9fb9ba0ce47aff5708ca2d803cf32e492e638b89c002a052ba3064f694aa0104df5ce9c887d3222551ba997ab2e2c74e286ede865b4649b8367e
+    expo: ^49.0.7 || ^50.0.0-0
+  checksum: 20f3ed83eccfa9d8de9c08f559685ec0125b537bc465b86927635db47ece4cec109442e8aa734402101de0f631110eb706e4611db8af2d583c64ad2293ec3ecf
   languageName: node
   linkType: hard
 
@@ -8241,6 +8242,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-unused-imports@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "eslint-plugin-unused-imports@npm:3.2.0"
+  dependencies:
+    eslint-rule-composer: ^0.3.0
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": 6 - 7
+    eslint: 8
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: e85ae4f3af489294ef5e0969ab904fa87f9fa7c959ca0804f30845438db4aeb0428ddad7ab06a70608e93121626799977241b442fdf126a4d0667be57390c3d6
+  languageName: node
+  linkType: hard
+
+"eslint-rule-composer@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "eslint-rule-composer@npm:0.3.0"
+  checksum: c2f57cded8d1c8f82483e0ce28861214347e24fd79fd4144667974cd334d718f4ba05080aaef2399e3bbe36f7d6632865110227e6b176ed6daa2d676df9281b1
+  languageName: node
+  linkType: hard
+
 "eslint-scope@npm:5.1.1, eslint-scope@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-scope@npm:5.1.1"
@@ -8602,9 +8625,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-pwa@npm:0.0.126":
-  version: 0.0.126
-  resolution: "expo-pwa@npm:0.0.126"
+"expo-pwa@npm:0.0.127":
+  version: 0.0.127
+  resolution: "expo-pwa@npm:0.0.127"
   dependencies:
     "@expo/image-utils": 0.3.23
     chalk: ^4.0.0
@@ -8614,13 +8637,13 @@ __metadata:
     expo: "*"
   bin:
     expo-pwa: build/cli.js
-  checksum: 6a0de8082649913ce23e1015c786bd68218ce5e5ce58dc99d808a820055907a5ab871574fc50b3b802b3d1933749c76971be92145f4a8a178f440b693868b83c
+  checksum: d9fd7bd6d875342caf7eb4a0b893928301b507a4d26830722c56f96e2a973be852bc8ec77a277dde8bc166e95b7c09c58e3014fb8849ba125289f55bd01e39f8
   languageName: node
   linkType: hard
 
-"expo-router@npm:~3.5.11":
-  version: 3.5.11
-  resolution: "expo-router@npm:3.5.11"
+"expo-router@npm:~3.5.12":
+  version: 3.5.12
+  resolution: "expo-router@npm:3.5.12"
   dependencies:
     "@expo/metro-runtime": 3.2.1
     "@expo/server": ^0.4.0
@@ -8647,7 +8670,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: a82f8b9212118745bafd286308eaa16d09a6ad55031fc81e9387670862361b034f1aeeb03bc55380a34021c779d2f177e9779ed3c3119422be5e4b9d18e4bae6
+  checksum: b8bfaa7775bf6f61d579b2a1b6a7aee150fbb32b28846da03a60757b3b68f7995d06c8435891b60d6d74df39d50793682b385c224d16a23f991519c019f7d07f
   languageName: node
   linkType: hard
 
@@ -8690,9 +8713,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:~51.0.2":
-  version: 51.0.3
-  resolution: "expo@npm:51.0.3"
+"expo@npm:~51.0.4":
+  version: 51.0.4
+  resolution: "expo@npm:51.0.4"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/cli": 0.18.11
@@ -8711,7 +8734,7 @@ __metadata:
     whatwg-url-without-unicode: 8.0.0-3
   bin:
     expo: bin/cli
-  checksum: d3bcd04e293f805ac7e705c2616e131643e0fac6157a270091ba95b77134103a724833f5b0a9342e2919577c356c8e4d80470efe70644648e6008e46fa1ab8ff
+  checksum: b4fdcfee32128ebc2748db67555c9c0cae8224b17a2b97cf2b6d8f5d5c7161b826debb29f1559bac2f1f61fc41fd3411c4787408204fcbd55ce524d9e2cc8659
   languageName: node
   linkType: hard
 
@@ -13425,15 +13448,15 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.0
     "@expo/vector-icons": ^14.0.0
-    "@expo/webpack-config": ^18.0.1
+    "@expo/webpack-config": ^19.0.1
     "@react-navigation/native": ^6.0.2
     babel-loader: ^8.1.0
     babel-plugin-module-resolver: ^5.0.0
-    expo: ~51.0.2
+    expo: ~51.0.4
     expo-constants: ~16.0.1
     expo-font: ~12.0.4
     expo-linking: ~6.3.1
-    expo-router: ~3.5.11
+    expo-router: ~3.5.12
     expo-splash-screen: ~0.27.4
     expo-status-bar: ~1.12.1
     expo-system-ui: ~3.0.4
@@ -13468,6 +13491,7 @@ __metadata:
     eslint: ^9.2.0
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.1.3
+    eslint-plugin-unused-imports: ^3.2.0
     husky: ^9.0.11
     jest: ^29.7.0
     lint-staged: ^15.2.2
@@ -16420,14 +16444,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:~7.3.2":
-  version: 7.3.8
-  resolution: "semver@npm:7.3.8"
+"semver@npm:~7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
   languageName: node
   linkType: hard
 
