@@ -27,6 +27,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Set up Git
+        run: |
+          git config --global user.name "Praveen Kumar"
+          git config --global user.email "netintipraveenkumar@gmail.com"
+
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
