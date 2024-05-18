@@ -1,6 +1,6 @@
 {
   "name": "native-nextui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make beautiful Native Applications regardless of your design.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
