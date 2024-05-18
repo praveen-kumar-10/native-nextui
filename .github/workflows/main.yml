@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - workflows
-   workflow_dispatch:
+  workflow_dispatch:
     inputs:
       version:
         description: 'Application version'
